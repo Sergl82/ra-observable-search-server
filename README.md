@@ -1,3 +1,3 @@
 # ra-hw12-observable-search-server
 
-[Server]('')
+[Server]('https://ra-observable-server.herokuapp.com/')

@@ -1,0 +1,19 @@
+{
+  "name": "ra-api-redux-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "likot sergey",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.13.4",
+    "koa-router": "^11.0.1",
+    "koa2-cors": "^2.0.6"
+  }
+}
